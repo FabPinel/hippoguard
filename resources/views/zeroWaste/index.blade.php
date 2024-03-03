@@ -14,7 +14,7 @@
         <div class="flex flex-col items-center sm:px-5 md:flex-row">
             <div class="flex flex-col items-start justify-center w-full h-full pt-6 pr-0 pb-6 pl-0 mb-6 md:mb-0 md:w-1/2">
                 <div class="flex flex-col items-start justify-center h-full space-y-3 transform md:pr-10 lg:pr-16 md:space-y-5">
-                    <div class="bg-[#1c3242] flex items-center leading-none rounded-full text-gray-50 pt-1.5 pr-3 pb-1.5 pl-2 uppercase">
+                    <div class="bg-[#FFED91] flex items-center leading-none rounded-full text-gray-50 pt-1.5 pr-3 pb-1.5 pl-2 uppercase">
                         <p class="inline">
                             <svg class="w-3.5 h-3.5 mr-1" fill="currentColor" viewbox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +67,7 @@
                 <img
                     src="https://www.econologie.com/wp4/wp-content/uploads/2020/05/visuel-remplacer-essentiel-820x547.jpg"
                     class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56 btn-" />
-                <p class="bg-[#1c3242]  flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3 rounded-full uppercase">ÉTAPE 2</p>
+                <p class="bg-[#FFED91]  flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3 rounded-full uppercase">ÉTAPE 2</p>
                 <a class="text-lg font-bold sm:text-xl md:text-1xl">Adopter les 5 R</a>
                 <ul class="list-disc pl-6 text-sm text-black">
                     <li><strong>Refuser</strong>: refuser ce dont vous n'avez pas besoin</li>
@@ -97,7 +97,7 @@
                 <img
                     src="https://sante-pratique-paris.fr/wp-content/uploads/2022/05/ok-adobestock-214597619-alexander-raths-alimentation.jpg"
                     class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56 btn-" />
-                <p class="bg-[#1c3242]  flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3 rounded-full uppercase">ÉTAPE 5</p>
+                <p class="bg-[#FFED91]  flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3 rounded-full uppercase">ÉTAPE 5</p>
                 <a class="text-lg font-bold sm:text-xl md:text-1xl">Adopter une alimentation responsable</a>
                 <p class="text-sm text-black">Choisissez des aliments locaux et de saison pour réduire l'empreinte carbone. Évitez les produits sur-emballés et privilégiez les marchés locaux et les producteurs responsables.</p>
             </div>

@@ -288,7 +288,7 @@ if ($discount) {
                         </form>
 
                         <div class="border-t border-gray-200 px-4 py-6 sm:px-6">
-                            <button type="button" id="submit-main-form" onclick="submitMainForm()" class="w-full rounded-md border border-transparent bg-[#1c3242] px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-[#374a56] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50">Payer avec Stripe</button>
+                            <button type="button" id="submit-main-form" onclick="submitMainForm()" class="w-full rounded-md border border-transparent bg-[#FFED91] px-4 py-3 text-base font-medium text-black shadow-sm hover:bg-[#E0D07F] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50">Payer avec Stripe</button>
                         </div>
                     </div>
                 </div>

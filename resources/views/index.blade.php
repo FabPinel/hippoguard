@@ -1,5 +1,5 @@
 @extends('layout')
-@section('pageTitle', 'Eco-Service')
+@section('pageTitle', 'HippoGuard')
 @section('content')
 
     <div class="bg-white">
@@ -25,7 +25,7 @@
                 <div class="px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 xl:px-0">
                     <h2 id="category-heading" class="text-2xl font-bold tracking-tight text-gray-900">Découvrez nos produits
                     </h2>
-                    <a href="/boutique" class="hidden text-m font-semibold text-[#1c3242] hover:text-[#374a56] sm:block">
+                    <a href="/boutique" class="hidden text-m font-semibold text-[#666666] hover:text-[#747474] sm:block">
                         Voir tous les produits
                         <span aria-hidden="true"> &rarr;</span>
                     </a>
@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="mt-6 px-4 sm:hidden">
-                    <a href="/boutique" class="block text-sm font-semibold text-[#1c3242] hover:text-[#374a56]">
+                    <a href="/boutique" class="block text-sm font-semibold text-[#FFED91] hover:text-[#374a56]">
                         Voir tous les produits
                         <span aria-hidden="true"> &rarr;</span>
                     </a>
@@ -64,22 +64,29 @@
             <section aria-labelledby="collection-heading"
                 class="mx-auto max-w-xl px-4 pt-24 sm:px-6 sm:pt-32 lg:max-w-7xl lg:px-8">
                 <h2 id="collection-heading" class="text-2xl font-bold tracking-tight text-gray-900">Par Marques et modèle</h2>
-                <p class="mt-4 text-base text-gray-500">Explorez l'art du DIY écologique avec nos articles pour créer des
-                    solutions durables à la maison. Faites place à la créativité et à la responsabilité environnementale !
-                    🌱🛠️</p>
-                {{-- <div class="mt-10 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0">
-                    @foreach ($diyHome as $diy)
-                        <a href="{{ route('diy.diyName', $diy->id) }}" class="group block">
-                            <div aria-hidden="true"
-                                class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75">
-                                <img src="{{ asset('storage/images/' . $diy->image) }}"
-                                    class="h-full w-full object-cover object-center">
+                <div class="mt-10 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0">
+                        <a class="group block">
+                            <div aria-hidden="true" class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75">
+                                <img src="https://image.noelshack.com/fichiers/2024/09/7/1709459782-38f595f6b0efe3fe1fbeb431a68b03ca.jpg" class="h-52 w-96 object-cover object-center">
                             </div>
-                            <h3 class="mt-4 text-base font-semibold text-gray-900">{{ $diy->title }}</h3>
-                            <p class="mt-2 text-sm text-gray-500">{{ $diy->description }}</p>
+                            <h3 class="mt-4 text-base font-semibold text-gray-900">Apple Iphone </h3>
+                            <p class="mt-2 text-sm text-gray-500">Iphone 15, Iphone 15 Plus, Iphone 15 Pro, Iphone 15 Pro Max</p>
                         </a>
-                    @endforeach
-                </div> --}}
+                        <a class="group block">
+                            <div aria-hidden="true" class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75">
+                                <img src="https://image.noelshack.com/fichiers/2024/09/7/1709459911-5182057a2e9f679fb413bcc84867b280.png" class="h-52 w-96 object-cover object-center">
+                            </div>
+                            <h3 class="mt-4 text-base font-semibold text-gray-900">Samsung Galaxy</h3>
+                            <p class="mt-2 text-sm text-gray-500">Samsung galaxy S23, Samsung Galaxy S23  Ultra</p>
+                        </a>
+                        <a class="group block">
+                            <div aria-hidden="true" class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75">
+                                <img src="https://image.noelshack.com/fichiers/2024/09/7/1709459965-2260f93bd9abfbd82af4d4a5cb0708a1.png" class="h-52 w-96 object-cover object-center">
+                            </div>
+                            <h3 class="mt-4 text-base font-semibold text-gray-900">Google Pixel</h3>
+                            <p class="mt-2 text-sm text-gray-500">Google Pixel 8, Google Pixel 8 Pro, Google Pixel 7a</p>
+                        </a>
+                </div>
             </section>
 
             <!-- Featured section -->
@@ -95,8 +102,8 @@
                                 <span class="block sm:inline">The Great Wave I</span>
                             </h2>
                             <p class="mt-3 text-xl text-white">
-                                Découvrez la Coque HIPPOGUARD SolidSuit personnalisée "[The Great Wave I]" pour iPhone 15. Inspirée par l'œuvre d'art classique "The Great Wave off Kanagawa", cette coque offre une protection robuste et un style incomparable à votre appareil. Fabriquée avec des matériaux de haute qualité, elle protège votre iPhone 15 des chocs et des rayures tout en ajoutant une touche artistique à votre quotidien. Commandez dès maintenant pour allier protection et esthétique!</p>
-                            <a href="/zero-dechet" class="mt-8 block w-full rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto">Je
+                                Découvrez la Coque HIPPOGUARD SolidSuit personnalisée "[The Great Wave I]" pour iPhone 15. Inspirée par l'œuvre d'art classique "The Great Wave off Kanagawa", cette coque offre une protection robuste et un style incomparable à votre appareil. Commandez dès maintenant pour allier protection et esthétique!</p>
+                            <a href="/boutique" class="mt-8 block w-full rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto">Je
                                 découvre !</a>
                         </div>
                     </div>

@@ -52,7 +52,7 @@
             <nav class="flex overflow-x-auto py-4">
                 <ul role="list" class="flex min-w-full flex-none gap-x-6 px-4 text-sm font-semibold leading-6 text-gray-400 sm:px-6 lg:px-8">
                     <li>
-                        <p class="text-[#1c3242] cursor-pointer" x-on:click="activeTab = 1; localStorage.setItem('activeTab', 1)"
+                        <p class="text-[#FFED91] cursor-pointer" x-on:click="activeTab = 1; localStorage.setItem('activeTab', 1)"
                         :class="{'text-[#e88229] shadow-sm cursor-pointer': activeTab === 1,'text-gray-400 shadow-sm cursor-pointer': activeTab !== 1}">Mon compte</p>
                     </li>
                     <li>
@@ -83,34 +83,34 @@
                             <div class="col-span-full">
                                 <label for="username" class="block text-sm font-medium leading-6 text-black">Pseudo</label>
                                 <div class="mt-2">
-                                <input id="username" name="username" autocomplete="username" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# 1c3242] sm:text-sm sm:leading-6" value="{{ auth()->user()->username }}">
+                                <input id="username" name="username" autocomplete="username" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# FFED91] sm:text-sm sm:leading-6" value="{{ auth()->user()->username }}">
                                 </div>
                             </div>
 
                             <div class="sm:col-span-3">
                                 <label for="first-name" class="block text-sm font-medium leading-6 text-black">Prénom</label>
                                 <div class="mt-2">
-                                <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# 1c3242] sm:text-sm sm:leading-6" value="{{ auth()->user()->first_name }}">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# FFED91] sm:text-sm sm:leading-6" value="{{ auth()->user()->first_name }}">
                                 </div>
                             </div>
 
                             <div class="sm:col-span-3">
                                 <label for="last-name" class="block text-sm font-medium leading-6 text-black">Nom</label>
                                 <div class="mt-2">
-                                <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# 1c3242] sm:text-sm sm:leading-6" value="{{ auth()->user()->last_name }}">
+                                <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# FFED91] sm:text-sm sm:leading-6" value="{{ auth()->user()->last_name }}">
                                 </div>
                             </div>
 
                             <div class="col-span-full">
                                 <label for="email" class="block text-sm font-medium leading-6 text-black">Adresse email</label>
                                 <div class="mt-2">
-                                <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# 1c3242] sm:text-sm sm:leading-6" value="{{ auth()->user()->email }}">
+                                <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# FFED91] sm:text-sm sm:leading-6" value="{{ auth()->user()->email }}">
                                 </div>
                             </div>
                         </div>
 
                         <div class="mt-8 flex">
-                            <button type="submit" class="rounded-md bg-[#1c3242] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#374a56] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Sauvegarder</button>
+                            <button type="submit" class="rounded-md bg-[#FFED91] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#E0D07F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Sauvegarder</button>
                         </div>
                     </form>
                 </div>
@@ -146,54 +146,54 @@
                             <div class="sm:col-span-3">
                                 <label for="first-name" class="block text-sm font-medium leading-6 text-black">Prénom</label>
                                 <div class="mt-2">
-                                <input type="text" name="first-name" id="first-name" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# 1c3242] sm:text-sm sm:leading-6" x-model="selectedAddress.first_name">
+                                <input type="text" name="first-name" id="first-name" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# FFED91] sm:text-sm sm:leading-6" x-model="selectedAddress.first_name">
                                 </div>
                             </div>
 
                             <div class="sm:col-span-3">
                                 <label for="last-name" class="block text-sm font-medium leading-6 text-black">Nom</label>
                                 <div class="mt-2">
-                                <input type="text" name="last-name" id="last-name" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# 1c3242] sm:text-sm sm:leading-6" x-model="selectedAddress.last_name">
+                                <input type="text" name="last-name" id="last-name" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# FFED91] sm:text-sm sm:leading-6" x-model="selectedAddress.last_name">
                                 </div>
                             </div>
 
                             <div class="col-span-3">
                                 <label for="address" class="block text-sm font-medium leading-6 text-black">Adresse</label>
                                 <div class="mt-2">
-                                <input id="address" name="address" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# 1c3242] sm:text-sm sm:leading-6" x-model="selectedAddress.address_line">
+                                <input id="address" name="address" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# FFED91] sm:text-sm sm:leading-6" x-model="selectedAddress.address_line">
                                 </div>
                             </div>
 
                             <div class="col-span-3">
                                 <label for="postal-code" class="block text-sm font-medium leading-6 text-black">Code postal</label>
                                 <div class="mt-2">
-                                <input id="postal-code" name="postal-code" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# 1c3242] sm:text-sm sm:leading-6" x-model="selectedAddress.postalCode">
+                                <input id="postal-code" name="postal-code" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# FFED91] sm:text-sm sm:leading-6" x-model="selectedAddress.postalCode">
                                 </div>
                             </div>
 
                             <div class="col-span-3">
                                 <label for="city" class="block text-sm font-medium leading-6 text-black">Ville</label>
                                 <div class="mt-2">
-                                <input id="city" name="city" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# 1c3242] sm:text-sm sm:leading-6" x-model="selectedAddress.city">
+                                <input id="city" name="city" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# FFED91] sm:text-sm sm:leading-6" x-model="selectedAddress.city">
                                 </div>
                             </div>
 
                             <div class="col-span-3">
                                 <label for="country" class="block text-sm font-medium leading-6 text-black">Pays</label>
                                 <div class="mt-2">
-                                <input id="country" name="country" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# 1c3242] sm:text-sm sm:leading-6" x-model="selectedAddress.country">
+                                <input id="country" name="country" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# FFED91] sm:text-sm sm:leading-6" x-model="selectedAddress.country">
                                 </div>
                             </div>
                             <div class="col-span-3">
                                 <label for="phone" class="block text-sm font-medium leading-6 text-black">Téléphone</label>
                                 <div class="mt-2">
-                                <input id="phone" name="phone" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# 1c3242] sm:text-sm sm:leading-6" x-model="selectedAddress.phone">
+                                <input id="phone" name="phone" class="block w-full rounded-md border-0 bg-grey/5 py-1.5 text-black shadow-sm ring-1 ring-inset ring-black/20 focus:ring-2 focus:ring-inset focus:ring-[# FFED91] sm:text-sm sm:leading-6" x-model="selectedAddress.phone">
                                 </div>
                             </div>
                         </div>
 
                         <div class="mt-8 flex">
-                            <button type="submit" class="rounded-md bg-[#1c3242] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#374a56] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Sauvegarder</button>
+                            <button type="submit" class="rounded-md bg-[#FFED91] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#E0D07F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Sauvegarder</button>
                         </div>
                     </form>
                 </div>
@@ -216,7 +216,7 @@
                         <div>
                             <h3 class="sr-only">Commandé le <time datetime="{{ $order->created_at->format('Y-m-d') }}">{{ $order->created_at->translatedFormat('d F, Y') }}</time></h3>
 
-                            <div class="rounded-lg bg-[#1c3242] px-4 py-6 sm:flex sm:items-center sm:justify-between sm:space-x-6 sm:px-6 lg:space-x-8">
+                            <div class="rounded-lg bg-[#FFED91] px-4 py-6 sm:flex sm:items-center sm:justify-between sm:space-x-6 sm:px-6 lg:space-x-8">
                                 <dl class="flex-auto space-y-6 divide-y divide-gray-200 text-sm text-gray-600 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:space-y-0 sm:divide-y-0 lg:w-1/2 lg:flex-none lg:gap-x-8">
                                     <div class="flex justify-between sm:block">
                                         <dt class="font-medium text-white">Le</dt>

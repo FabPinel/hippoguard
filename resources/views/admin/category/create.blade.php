@@ -33,7 +33,7 @@
                 <div class="flex items-center justify-end gap-x-6 border-t border-gray-900/10 px-4 py-4 sm:px-8">
                     <button type="button" class="text-sm font-semibold leading-6 text-gray-900">Annuler</button>
                     <button type="submit"
-                        class="rounded-md bg-[#1c3242] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#374a56] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sauvegarder</button>
+                        class="rounded-md bg-[#FFED91] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#E0D07F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sauvegarder</button>
                 </div>
             </form>
         </div>

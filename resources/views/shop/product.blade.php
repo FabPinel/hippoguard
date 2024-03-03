@@ -36,13 +36,13 @@
                         @csrf
                         <div class="mt-10 flex">
                             <button type="submit"
-                                class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-[#1c3242] px-8 py-3 text-base font-medium text-white hover:bg-[#374a56] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full mr-6"
+                                class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-[#FFED91] px-8 py-3 text-base font-medium text-black hover:bg-[#E0D07F] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full mr-6"
                                 @if ($product->quantity == 0) disabled @endif>
                                 Ajouter au panier
                             </button>
                             <input type="number" name="quantity" value="1" min="1"
                                 max="{{ $product->quantity }}"
-                                class="w-10 text-center rounded-md border border-gray-300 py-1.5 text-base font-medium leading-5 text-gray-700 shadow-sm focus:border-[#1c3242] focus:outline-none focus:ring-1 focus:ring-[#1c3242] sm:text-sm mr-4"
+                                class="w-10 text-center rounded-md border border-gray-300 py-1.5 text-base font-medium leading-5 text-gray-700 shadow-sm focus:border-[#FFED91] focus:outline-none focus:ring-1 focus:ring-[#FFED91] sm:text-sm mr-4"
                                 onkeydown="return false;">
                         </div>
                     </form>
@@ -59,7 +59,7 @@
                     {{-- <form action="{{ route('remove', ['productId' => $product->id]) }}" method="POST" class="mt-6">
             @csrf
             <div class="mt-10 flex">
-                <button type="submit" class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-[#1c3242] px-8 py-3 text-base font-medium text-white hover:bg-[#374a56] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full">Ajouter au panier</button>
+                <button type="submit" class="flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-[#FFED91] px-8 py-3 text-base font-medium text-white hover:bg-[#E0D07F] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full">Ajouter au panier</button>
             </div>
           </form>       --}}
 
@@ -115,7 +115,7 @@
                             être...
                         </h2>
                         <a href="/boutique"
-                            class="hidden text-m font-semibold text-[#1c3242] hover:text-[#374a56] sm:block">
+                            class="hidden text-m font-semibold text-[#FFED91] hover:text-[#374a56] sm:block">
                             Voir tous les produits
                             <span aria-hidden="true"> &rarr;</span>
                         </a>
@@ -146,7 +146,7 @@
                     </div>
 
                     <div class="mt-6 px-4 sm:hidden">
-                        <a href="/boutique" class="block text-sm font-semibold text-[#1c3242] hover:text-[#374a56]">
+                        <a href="/boutique" class="block text-sm font-semibold text-[#FFED91] hover:text-[#374a56]">
                             Voir tous les produits
                             <span aria-hidden="true"> &rarr;</span>
                         </a>

@@ -5,27 +5,27 @@
         <ul class="flex justify-center space-x-4 mt-20">
             <li x-on:click="activeTab = 1; localStorage.setItem('activeTab', 1)"
                 :class="{
-                    'bg-[#1c3242] text-white shadow-md cursor-pointer': activeTab ===
+                    'bg-[#FFED91] text-black shadow-md cursor-pointer': activeTab ===
                         1,
                     'bg-white text-black shadow-md cursor-pointer': activeTab !== 1
                 }"
-                class="hover:bg-[#374a56]focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg w-full sm:w-auto px-5 py-2.5 text-center">
+                class="hover:bg-[#E0D07F]focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg w-full sm:w-auto px-5 py-2.5 text-center">
                 Produits
             </li>
             <li x-on:click="activeTab = 2; localStorage.setItem('activeTab', 2)"
                 :class="{
-                    'bg-[#1c3242] text-white shadow-md cursor-pointer': activeTab === 2,
+                    'bg-[#FFED91] text-black shadow-md cursor-pointer': activeTab === 2,
                     'bg-white text-black shadow-md cursor-pointer': activeTab !== 2
                 }"
-                class="hover:bg-[#374a56] hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg w-full sm:w-auto px-5 py-2.5 text-center">
+                class="hover:bg-[#E0D07F] hover:text-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg w-full sm:w-auto px-5 py-2.5 text-center">
                 Catégories
             </li>
             <li x-on:click="activeTab = 3; localStorage.setItem('activeTab', 3)"
                 :class="{
-                    'bg-[#1c3242] text-white shadow-md cursor-pointer': activeTab === 3,
+                    'bg-[#FFED91] text-black shadow-md cursor-pointer': activeTab === 3,
                     'bg-white text-black shadow-md cursor-pointer': activeTab !== 3
                 }"
-                class="hover:bg-[#374a56] hover:text-white phpfocus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg w-full sm:w-auto px-5 py-2.5 text-center">
+                class="hover:bg-[#E0D07F] hover:text-black phpfocus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-lg w-full sm:w-auto px-5 py-2.5 text-center">
                 Promo
             </li>
         </ul>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
                     <a href="{{ route('admin.products.create') }}"
-                        class="block rounded-md bg-[#1c3242] px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#374a56] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Ajouter
+                        class="block rounded-md bg-[#FFED91] px-3 py-2 text-center text-sm font-semibold text-black shadow-sm hover:bg-[#E0D07F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Ajouter
                         un produit</a>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                                         </td>
                                         <td
                                             class="relative whitespace-nowrap py-5 pl-3 pr-4 text-right text-sm font-medium sm:pr-0">
-                                            <a href="{{ route('shop.productName', $product->id) }}" class="text-[#1c3242] hover:text-[#374a56]"><span
+                                            <a href="{{ route('shop.productName', $product->id) }}" class="text-[#FFED91] hover:text-[#374a56]"><span
                                                     class="material-icons">
                                                     visibility
                                                 </span></a>
@@ -163,7 +163,7 @@
                 </div>
                 <div class="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
                     <a href="{{ route('admin.category.create') }}"
-                        class="block rounded-md bg-[#1c3242] px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#374a56] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Ajouter
+                        class="block rounded-md bg-[#FFED91] px-3 py-2 text-center text-sm font-semibold text-black shadow-sm hover:bg-[#E0D07F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Ajouter
                         une catégorie</a>
                 </div>
             </div>
@@ -243,7 +243,7 @@
                 </div>
                 <div class="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
                     <a href="{{ route('admin.discounts.create') }}"
-                        class="block rounded-md bg-[#1c3242] px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#374a56] cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Ajouter
+                        class="block rounded-md bg-[#FFED91] px-3 py-2 text-center text-sm font-semibold text-black shadow-sm hover:bg-[#E0D07F] cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Ajouter
                         une promotion</a>
                 </div>
             </div>

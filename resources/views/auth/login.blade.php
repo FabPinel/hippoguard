@@ -43,7 +43,7 @@
                             <a href="#" class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Mot de passe oublié ?</a>
                         </div>
                         <button type="submit"
-                            class="text-white bg-[#1c3242] hover:bg-[#374a56] font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Se connecter</button>
+                            class="text-white bg-[#FFED91] hover:bg-[#E0D07F] font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Se connecter</button>
                         <p class="text-sm font-light text-gray-500 dark:text-gray-400">
                             Vous n'avez pas encore de compte ? <a href="/register"
                                 class="font-medium text-[#e88229] hover:underline hover:text-[#EEA25F]">S'inscrire</a>

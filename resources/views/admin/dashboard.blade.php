@@ -9,12 +9,12 @@
               <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-6 px-4 sm:flex-nowrap sm:px-6 lg:px-8">
                 <h1 class="text-base font-semibold leading-7 text-gray-900">Commandes</h1>
                 <div class="order-last flex w-full gap-x-8 text-sm font-semibold leading-6 sm:order-none sm:w-auto sm:border-l sm:border-gray-200 sm:pl-6 sm:leading-7">
-                    <p class="text-[#1c3242] cursor-pointer" x-on:click="activeTab = 1; localStorage.setItem('activeTab', 1)"
-                        :class="{'text-[#e88229] shadow-sm cursor-pointer': activeTab === 1,'text-gray-400 shadow-sm cursor-pointer': activeTab !== 1}">7 jours</p>
-                    <p class="text-[#1c3242] cursor-pointer" x-on:click="activeTab = 2; localStorage.setItem('activeTab', 2)"
-                    :class="{'text-[#e88229] shadow-sm cursor-pointer': activeTab === 2,'text-gray-400 shadow-sm cursor-pointer': activeTab !== 2}">30 jours</p>
-                    <p class="text-[#1c3242] cursor-pointer" x-on:click="activeTab = 3; localStorage.setItem('activeTab', 3)"
-                    :class="{'text-[#e88229] shadow-sm cursor-pointer': activeTab === 3,'text-gray-400 shadow-sm cursor-pointer': activeTab !== 3}">Depuis le début</p>
+                    <p class="text-[#666666] cursor-pointer" x-on:click="activeTab = 1; localStorage.setItem('activeTab', 1)"
+                        :class="{'text-[#F0DF88] shadow-sm cursor-pointer': activeTab === 1,'text-gray-400 shadow-sm cursor-pointer': activeTab !== 1}">7 jours</p>
+                    <p class="text-[#666666] cursor-pointer" x-on:click="activeTab = 2; localStorage.setItem('activeTab', 2)"
+                    :class="{'text-[#F0DF88] shadow-sm cursor-pointer': activeTab === 2,'text-gray-400 shadow-sm cursor-pointer': activeTab !== 2}">30 jours</p>
+                    <p class="text-[#666666] cursor-pointer" x-on:click="activeTab = 3; localStorage.setItem('activeTab', 3)"
+                    :class="{'text-[#F0DF88] shadow-sm cursor-pointer': activeTab === 3,'text-gray-400 shadow-sm cursor-pointer': activeTab !== 3}">Depuis le début</p>
                 </div>
               </div>
             </header>
@@ -47,7 +47,7 @@
               </div>
 
               <div class="absolute left-0 top-full -z-10 mt-96 origin-top-left translate-y-40 -rotate-90 transform-gpu opacity-20 blur-3xl sm:left-1/2 sm:-ml-96 sm:-mt-10 sm:translate-y-0 sm:rotate-0 sm:transform-gpu sm:opacity-50" aria-hidden="true">
-                <div class="aspect-[1154/678] w-[72.125rem] bg-gradient-to-br from-[#1c3242] to-[#9089FC]" style="clip-path: polygon(100% 38.5%, 82.6% 100%, 60.2% 37.7%, 52.4% 32.1%, 47.5% 41.8%, 45.2% 65.6%, 27.5% 23.4%, 0.1% 35.3%, 17.9% 0%, 27.7% 23.4%, 76.2% 2.5%, 74.2% 56%, 100% 38.5%)"></div>
+                <div class="aspect-[1154/678] w-[72.125rem] bg-gradient-to-br from-[#F0DF88] to-[#9089FC]" style="clip-path: polygon(100% 38.5%, 82.6% 100%, 60.2% 37.7%, 52.4% 32.1%, 47.5% 41.8%, 45.2% 65.6%, 27.5% 23.4%, 0.1% 35.3%, 17.9% 0%, 27.7% 23.4%, 76.2% 2.5%, 74.2% 56%, 100% 38.5%)"></div>
               </div>
             </div>
 
@@ -79,7 +79,7 @@
               </div>
 
               <div class="absolute left-0 top-full -z-10 mt-96 origin-top-left translate-y-40 -rotate-90 transform-gpu opacity-20 blur-3xl sm:left-1/2 sm:-ml-96 sm:-mt-10 sm:translate-y-0 sm:rotate-0 sm:transform-gpu sm:opacity-50" aria-hidden="true">
-                <div class="aspect-[1154/678] w-[72.125rem] bg-gradient-to-br from-[#1c3242] to-[#9089FC]" style="clip-path: polygon(100% 38.5%, 82.6% 100%, 60.2% 37.7%, 52.4% 32.1%, 47.5% 41.8%, 45.2% 65.6%, 27.5% 23.4%, 0.1% 35.3%, 17.9% 0%, 27.7% 23.4%, 76.2% 2.5%, 74.2% 56%, 100% 38.5%)"></div>
+                <div class="aspect-[1154/678] w-[72.125rem] bg-gradient-to-br from-[#F0DF88] to-[#9089FC]" style="clip-path: polygon(100% 38.5%, 82.6% 100%, 60.2% 37.7%, 52.4% 32.1%, 47.5% 41.8%, 45.2% 65.6%, 27.5% 23.4%, 0.1% 35.3%, 17.9% 0%, 27.7% 23.4%, 76.2% 2.5%, 74.2% 56%, 100% 38.5%)"></div>
               </div>
             </div>
 
@@ -111,7 +111,7 @@
               </div>
 
               <div class="absolute left-0 top-full -z-10 mt-96 origin-top-left translate-y-40 -rotate-90 transform-gpu opacity-20 blur-3xl sm:left-1/2 sm:-ml-96 sm:-mt-10 sm:translate-y-0 sm:rotate-0 sm:transform-gpu sm:opacity-50" aria-hidden="true">
-                <div class="aspect-[1154/678] w-[72.125rem] bg-gradient-to-br from-[#1c3242] to-[#9089FC]" style="clip-path: polygon(100% 38.5%, 82.6% 100%, 60.2% 37.7%, 52.4% 32.1%, 47.5% 41.8%, 45.2% 65.6%, 27.5% 23.4%, 0.1% 35.3%, 17.9% 0%, 27.7% 23.4%, 76.2% 2.5%, 74.2% 56%, 100% 38.5%)"></div>
+                <div class="aspect-[1154/678] w-[72.125rem] bg-gradient-to-br from-[#F0DF88] to-[#9089FC]" style="clip-path: polygon(100% 38.5%, 82.6% 100%, 60.2% 37.7%, 52.4% 32.1%, 47.5% 41.8%, 45.2% 65.6%, 27.5% 23.4%, 0.1% 35.3%, 17.9% 0%, 27.7% 23.4%, 76.2% 2.5%, 74.2% 56%, 100% 38.5%)"></div>
               </div>
             </div>
 
@@ -165,7 +165,7 @@
                             </td>
                             <td class="py-5 text-right">
                               <div class="flex justify-end">
-                                <a href="{{ route('admin.orders.orderDetails', $order->id) }}" class="text-sm font-medium leading-6 text-[#e88229] hover:text-[#EEA25F]">Voir<span class="hidden sm:inline"> la commande</span><span class="sr-only">, invoice #00012, Reform</span></a>
+                                <a href="{{ route('admin.orders.orderDetails', $order->id) }}" class="text-sm font-medium leading-6 text-[#666666] hover:text-[#E0D07F]">Voir<span class="hidden sm:inline"> la commande</span><span class="sr-only">, invoice #00012, Reform</span></a>
                               </div>
                               <div class="mt-1 text-xs leading-5 text-gray-500"><span class="text-gray-900">#{{ $order->id }}</span></div>
                             </td>

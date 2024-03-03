@@ -7,20 +7,20 @@
                 <h2 class="font-semibold text-3xl mt-12">Contactez-nous !</h2>
                 <div>
                     <div class="flex gap-4 py-4 mt-4">
-                        <svg class="w-8 h-8 text-[#e88229]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <svg class="w-8 h-8 text-[#666666]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.8 14h0a7 7 0 1 0-11.5 0h0l.1.3.3.3L12 21l5.1-6.2.6-.7.1-.2Z"/>
                           </svg>
                           <p>24 rue Marc Donadille 13013</p>
                     </div>
                     <div class="flex gap-4 py-4">
-                        <svg class="w-8 h-8 text-[#e88229]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <svg class="w-8 h-8 text-[#666666]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m18.4 14.8-1.2-1.3a1.7 1.7 0 0 0-2.4 0l-.7.7a1.7 1.7 0 0 1-2.4 0l-1.9-1.9a1.7 1.7 0 0 1 0-2.4l.7-.6a1.7 1.7 0 0 0 0-2.5L9.2 5.6a1.6 1.6 0 0 0-2.4 0c-3.2 3.2-1.7 6.9 1.5 10 3.2 3.3 7 4.8 10.1 1.6a1.6 1.6 0 0 0 0-2.4Z"/>
                           </svg>
                           <p>06 06 06 06 06</p>
                     </div>
                     <div class="flex gap-4 py-4">
-                        <svg class="w-8 h-8 text-[#e88229]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <svg class="w-8 h-8 text-[#666666]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m3.5 5.5 7.9 6c.4.3.8.3 1.2 0l7.9-6M4 19h16c.6 0 1-.4 1-1V6c0-.6-.4-1-1-1H4a1 1 0 0 0-1 1v12c0 .6.4 1 1 1Z"/>
                           </svg>
                           <p>ecoserviceg3@gmail.com</p>
@@ -62,7 +62,7 @@
                     }">
                     @csrf
                     <div class="w-full py-2">
-                        <select x-model="userType" class="w-full my-4 text-lg font-semibold py-2 px-3 border-2 border-[#e88229] rounded-sm">
+                        <select x-model="userType" class="w-full my-4 text-lg font-semibold py-2 px-3 border-2 border-[#666666] rounded-sm">
                             <option value="">Vous êtes ?</option>
                             <option value="particulier">Un particulier</option>
                             <option value="entreprise">Une entreprise</option>
@@ -72,13 +72,13 @@
                         <div class="w-full">
                             <label for="lastname">Nom</label>
                             <input type='text' id="lastname" placeholder='Nom' name="lastname"
-                                class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#1c3242]"/>
+                                class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#666666]"/>
                         </div>
 
                         <div class="w-full">
                             <label for="firstname">Prénom</label>
                             <input type='text' id="firstname" placeholder='Prénom' name="firstname"
-                                class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#1c3242]"/>
+                                class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#666666]"/>
                         </div>
 
                     </div>
@@ -86,7 +86,7 @@
                     <div x-show="userType === 'entreprise'">
                         <label for="enterprise">Entreprise</label>
                         <input type='text' id="enterprise" placeholder='Entreprise' name="enterprise"
-                            class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#1c3242]" />
+                            class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#666666]" />
 
                         <div class="flex gap-6 py-2">
                             <div class="w-full">
@@ -94,7 +94,7 @@
                                     <span class="text-sm text-slate-400">Optionnel</span>
                                 </label>
                                 <input type='text' id="lastname" placeholder='Nom' name="lastname_enterprise"
-                                    class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#1c3242]" />
+                                    class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#666666]" />
                             </div>
 
                             <div class="w-full">
@@ -102,7 +102,7 @@
                                     <span class="text-sm text-slate-400">Optionnel</span>
                                 </label>
                                 <input type='text' id="firstname" placeholder='Prénom' name="firstname_enterprise"
-                                    class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#1c3242]" />
+                                    class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#666666]" />
                             </div>
                         </div>
 
@@ -114,32 +114,32 @@
                                 <span class="text-sm text-slate-400">Optionnel</span>
                             </label>
                             <input type='phone' id="phone" placeholder='Numéro de téléphone' name="phone"
-                                class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#1c3242]" />
+                                class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#666666]" />
                         </div>
 
                     </div>
                     <div class="py-2">
                         <label for="email">Email
                             <input type='email' id="email" placeholder='Email' name="email"
-                                class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#1c3242]" />
+                                class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#666666]" />
                         </label>
                     </div>
                     <div class="py-2">
                         <label for="subject">Sujet</label>
                         <input type='text' id="subject" placeholder='Subject' name="subject"
-                            class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#1c3242]" />
+                            class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#666666]" />
                     </div>
 
                         <div class="py-2">
                             <label for="message">Message</label>
                             <textarea placeholder='Message' id="message" rows="6" name="message"
-                                class="col-span-full w-full rounded px-4 border-2 text-sm pt-3 outline-[#1c3242]"></textarea>
+                                class="col-span-full w-full rounded px-4 border-2 text-sm pt-3 outline-[#666666]"></textarea>
                         </div>
 
                         <div class="w-full">
 
                             <input type='hidden' id="id_product" placeholder='Nom du produit' name="id_product"
-                                class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#1c3242]" readonly/>
+                                class="w-full rounded py-2.5 px-4 border-2 text-sm outline-[#666666]" readonly/>
                         </div>
                         <label for="id_product" class="flex justify-between">Nom du produit
                             <span class="text-sm text-slate-400">Optionnel</span>
@@ -208,7 +208,7 @@
                             </div>
                             <div class="text-sm text-center">
                                 <label for="terms" class="font-light">J'accepte <a
-                                        class="font-medium text-blue-700 hover:underline dark:text-[#e88229]" href="#">les
+                                        class="font-medium text-blue-700 hover:underline dark:text-[#666666]" href="#">les
                                         conditions</a></label>
                             </div>
                         </div>

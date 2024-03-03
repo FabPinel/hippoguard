@@ -8,15 +8,7 @@
                         <h3 class="text-sm font-medium text-white">Boutique</h3>
                         <ul role="list" class="mt-6 space-y-6">
                             <li class="text-sm">
-                                <a href="#" class="text-gray-300 hover:text-white">Produit ménager</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="text-sm font-medium text-white">Zéro-déchet</h3>
-                        <ul role="list" class="mt-6 space-y-6">
-                            <li class="text-sm">
-                                <a href="/zero-dechet" class="text-gray-300 hover:text-white">Je découvre !</a>
+                                <a href="/boutique" class="text-gray-300 hover:text-white">Voir la boutique</a>
                             </li>
                         </ul>
                     </div>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <script src="https://cdn.tailwindcss.com"></script>
     @vite('resources/css/app.css')
-    <link rel="icon" href="https://image.noelshack.com/fichiers/2024/06/7/1707663571-logo-eco-service2.png" />
+    <link rel="icon" href="https://image.noelshack.com/fichiers/2024/09/6/1709410781-7a8338f69e139fcb21c949c087a45332.png" />
     <title>@yield('pageTitle')</title> 
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

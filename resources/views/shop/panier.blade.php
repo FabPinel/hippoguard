@@ -34,7 +34,7 @@
                                                 {{ $item['name'] }}</label>
                                             <input id="quantity-{{ $productId }}" name="quantity-{{ $productId }}"
                                                 type="number" value="{{ $item['quantity'] }}"
-                                                class="w-10 rounded-md border border-gray-300 py-1.5 text-left text-base font-medium leading-5 text-gray-700 shadow-sm focus:border-[#1c3242] focus:outline-none focus:ring-1 focus:ring-[#1c3242] sm:text-sm"
+                                                class="w-10 rounded-md border border-gray-300 py-1.5 text-left text-base font-medium leading-5 text-gray-700 shadow-sm focus:border-[#FFED91] focus:outline-none focus:ring-1 focus:ring-[#FFED91] sm:text-sm"
                                                 min="1" max="{{ $product->quantity }}" step="1"
                                                 inputmode="numeric" data-product-id="{{ $item['product_id'] }}"
                                                 onkeydown="return false;">
@@ -116,13 +116,13 @@
                                 <p class="text-sm text-gray-500 mb-2">Vous devez être connecté pour passer commande,
                                     connectez-vous
                                     <a href="{{ route('login', ['intended' => url()->current()]) }}"
-                                        class="text-[#e88229]">ici</a>.
+                                        class="text-[#E0D07F]">ici</a>.
                                 </p>
                             </form>
                         @else
                             <!-- Bouton avec désactivation conditionnelle -->
                             <a href="{{ route('commande') }}"
-                                class="w-full rounded-md border border-transparent bg-[#1c3242] px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-[#374a56] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 block text-center"
+                                class="w-full rounded-md border border-transparent bg-[#FFED91] px-4 py-3 text-base font-medium text-black shadow-sm hover:bg-[#E0D07F] focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50 block text-center"
                                 @if ($subtotal == 0) onclick="return false;"
                                style="pointer-events: none; opacity: 0.5;" @endif>
                                 Commander

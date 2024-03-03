@@ -82,7 +82,7 @@
         <nav aria-label="Top">
             <!-- Secondary navigation -->
             <div :class="{ 'fixed top-0 w-full': isSticky }"
-                class="bg-[#e88229] bg-opacity-50 backdrop-blur-md backdrop-filter">
+                class="bg-[#000000] bg-opacity-60 backdrop-blur-md backdrop-filter border-t-8 border-[#FFED91]">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div>
                         <div class="flex h-16 items-center justify-between">
@@ -90,9 +90,7 @@
                             <div class="hidden lg:flex lg:flex-1 lg:items-center">
                                 <a href="/">
                                     <span class="sr-only">Your Company</span>
-                                    <img class="h-20 w-auto"
-                                        src="https://image.noelshack.com/fichiers/2024/04/5/1706279129-logo-eco-service.png"
-                                        alt="">
+                                    <img class="h-12 w-auto"src="https://image.noelshack.com/fichiers/2024/09/6/1709410781-7a8338f69e139fcb21c949c087a45332.png" alt="">
                                 </a>
                             </div>
 

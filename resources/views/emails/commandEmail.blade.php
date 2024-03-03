@@ -337,8 +337,8 @@ if ($discount) {
                                     style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#fef5e4;width:600px"
                                     cellspacing="0" cellpadding="0" bgcolor="#fef5e4" align="center" role="none">
                                     <tr style="border-collapse:collapse">
-                                        <td align="left" bgcolor="#1c3242"
-                                            style="padding:0;Margin:0;padding-left:10px;padding-right:10px;background-color:#1c3242">
+                                        <td align="left" bgcolor="#FFED91"
+                                            style="padding:0;Margin:0;padding-left:10px;padding-right:10px;background-color:#FFED91">
                                             <table cellspacing="0" cellpadding="0" width="100%" role="none"
                                                 style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                 <tr style="border-collapse:collapse">
@@ -866,8 +866,8 @@ if ($discount) {
                                     role="none"
                                     style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#FEF5E4;width:600px">
                                     <tr style="border-collapse:collapse">
-                                        <td align="left" bgcolor="#1c3242"
-                                            style="padding:20px;Margin:0;background-color:#1c3242">
+                                        <td align="left" bgcolor="#FFED91"
+                                            style="padding:20px;Margin:0;background-color:#FFED91">
                                             <!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:178px" valign="top"><![endif]-->
                                             <table class="es-left" cellspacing="0" cellpadding="0" align="left"
                                                 role="none"
