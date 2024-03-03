@@ -52,12 +52,12 @@
             <nav class="flex overflow-x-auto py-4">
                 <ul role="list" class="flex min-w-full flex-none gap-x-6 px-4 text-sm font-semibold leading-6 text-gray-400 sm:px-6 lg:px-8">
                     <li>
-                        <p class="text-[#FFED91] cursor-pointer" x-on:click="activeTab = 1; localStorage.setItem('activeTab', 1)"
-                        :class="{'text-[#e88229] shadow-sm cursor-pointer': activeTab === 1,'text-gray-400 shadow-sm cursor-pointer': activeTab !== 1}">Mon compte</p>
+                        <p class="text-[#666666] cursor-pointer" x-on:click="activeTab = 1; localStorage.setItem('activeTab', 1)"
+                        :class="{'text-[#F0DF88] shadow-sm cursor-pointer': activeTab === 1,'text-gray-400 shadow-sm cursor-pointer': activeTab !== 1}">Mon compte</p>
                     </li>
                     <li>
-                        <p class="cursor-pointer" x-on:click="activeTab = 2; localStorage.setItem('activeTab', 2)"
-                        :class="{'text-[#e88229] shadow-sm cursor-pointer': activeTab === 2,'text-gray-400 shadow-sm cursor-pointer': activeTab !== 2}">Mes commandes</p>
+                        <p class="text-[#666666] cursor-pointer" x-on:click="activeTab = 2; localStorage.setItem('activeTab', 2)"
+                        :class="{'text-[#F0DF88] shadow-sm cursor-pointer': activeTab === 2,'text-gray-400 shadow-sm cursor-pointer': activeTab !== 2}">Mes commandes</p>
                     </li>
                 </ul>
             </nav>
@@ -110,7 +110,7 @@
                         </div>
 
                         <div class="mt-8 flex">
-                            <button type="submit" class="rounded-md bg-[#FFED91] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#E0D07F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Sauvegarder</button>
+                            <button type="submit" class="rounded-md bg-[#FFED91] px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-[#E0D07F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Sauvegarder</button>
                         </div>
                     </form>
                 </div>
@@ -193,7 +193,7 @@
                         </div>
 
                         <div class="mt-8 flex">
-                            <button type="submit" class="rounded-md bg-[#FFED91] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#E0D07F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Sauvegarder</button>
+                            <button type="submit" class="rounded-md bg-[#FFED91] px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-[#E0D07F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Sauvegarder</button>
                         </div>
                     </form>
                 </div>
@@ -219,18 +219,18 @@
                             <div class="rounded-lg bg-[#FFED91] px-4 py-6 sm:flex sm:items-center sm:justify-between sm:space-x-6 sm:px-6 lg:space-x-8">
                                 <dl class="flex-auto space-y-6 divide-y divide-gray-200 text-sm text-gray-600 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:space-y-0 sm:divide-y-0 lg:w-1/2 lg:flex-none lg:gap-x-8">
                                     <div class="flex justify-between sm:block">
-                                        <dt class="font-medium text-white">Le</dt>
-                                        <dd class="sm:mt-1 text-white">
+                                        <dt class="font-medium text-black">Le</dt>
+                                        <dd class="sm:mt-1 text-black">
                                             <time datetime="{{ $order->created_at->format('Y-m-d') }}">
                                                 {{ $order->created_at->translatedFormat('d F, Y') }}
                                             </time>
                                         </dd>
                                     </div>
                                     <div class="flex justify-between pt-6 sm:block sm:pt-0">
-                                        <dt class="font-medium text-white">Nuémro de commande</dt>
-                                        <dd class="sm:mt-1 text-white">#{{ $order->id }}</dd>
+                                        <dt class="font-medium text-black">Nuémro de commande</dt>
+                                        <dd class="sm:mt-1 text-black">#{{ $order->id }}</dd>
                                     </div>
-                                    <div class="flex justify-between pt-6 font-medium text-white sm:block sm:pt-0">
+                                    <div class="flex justify-between pt-6 font-medium text-black sm:block sm:pt-0">
                                         <dt>Total</dt>
                                         <dd class="sm:mt-1">{{ number_format($order->total, 2) }}€</dd>
                                     </div>
